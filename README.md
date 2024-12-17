@@ -56,6 +56,8 @@ You can also name the project whatever you liked by replacing mine-connection wi
 ```powershell
   docker run --restart unless-stopped --name mine-connection -it --net=host -e SECRET_KEY=b510cbbe32d7b9637d1d0cbcbc01328925a0363b2fc8a0cd39d1f0b2697ad0c4 ghcr.io/playit-cloud/playit-agent:0.15
 ```
+again, DONT actually run those commands, run whatever it gives you.
+
 5. Once the connector has been connected. The page will automatically go to the next step. Select the Add Tunnel selection at the end.
 6. Use Shared IP, then change the Tunnel Type to TCP+UDP (protocol)
 7. Then change the Local Port to 25565. 
