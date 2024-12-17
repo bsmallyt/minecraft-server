@@ -8,15 +8,21 @@ For the system running the Minecraft server, check suggested system requirements
 To use the Minecraft Server there will be a few requirememts that need to be met. The following steps will assist you in setting up your personal server. 
 1. Docker must be installed on your device. Personally I use Docker desktop, where installation can be found at https://www.docker.com/products/docker-desktop
 2. Download this repository as a zip file, by selecting the Code icon found near the center of the screen. The Download ZIP option will now be shown. 
+
   ![alt text](image.png)
+
 3. Once installation is confirmed, navigate to the downloaded folder and extract contents wherever desired.
 4. The jdk-23_linux-x64_bin.deb file MUST be replaced with a real installation. Navigate to this page: https://www.oracle.com/java/technologies/downloads. 
 Then install the x64 Debian Package (this will not effect your machine). Move the file from the downloads folder and replace the jdk-23_linux-x64_bin.deb file within the project.
 (File name doesn't need to be changed.) 
+
   ![alt text](image-2.png)
+
 5. (Optional Step) If you would like to use a newer paper server version, you can go to this webpage: https://papermc.io/downloads/paper. 
 Here you can download the lastest paper server, then replace the paper-1.21.3-81.jar file. (File name doesn't need to be changed.) 
+
   ![alt text](image-1.png)
+  
 
 ## Setup
 Once everything is installed, follow the steps to setup your server.
